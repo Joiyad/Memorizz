@@ -19,7 +19,7 @@ const App = () => {
 
   return (
     <Container maxidth="lg">
-      <AppBar className={classes.appBar} position="static" backgroundcolor="#0F98BE">
+      <AppBar className={classes.appBar} position="static" sx={{backgroundOpacity: '30%'}}>
         <div className={classes.logo}>
           <img
             src={logo}

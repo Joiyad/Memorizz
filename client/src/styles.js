@@ -7,6 +7,7 @@ export default makeStyles((theme) => ({
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
+    padding: '10px',
   },
   heading: {
     color: '#00000',
